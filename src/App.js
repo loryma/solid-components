@@ -12,6 +12,9 @@ function App() {
       <Button1 mix="login-button">
         mix classname name
       </Button1>
+      <Button1 theme="dark">
+        dark theme
+      </Button1>
     </div>
   );
 }

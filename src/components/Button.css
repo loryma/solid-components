@@ -3,3 +3,8 @@
   padding: 8px;
   border-radius: 4px;
 }
+
+.my-button_theme_dark {
+  background-color: black;
+  color: white;
+}
