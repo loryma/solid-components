@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Button1 from './components/Button';
 import Button2 from './components/ButtonHOC';
+import Select from './components/Select';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Button1 theme="dark">
         dark theme
       </Button1>
+      <h2>Single responsibility principle</h2>
       <h3>Button wrapped in HOC that checks for theme prop</h3>
       <Button2 theme="theme1">
         button with red theme in HOC
@@ -25,6 +27,8 @@ function App() {
       <Button2 theme="theme2">
         button with green theme in HOC
       </Button2>
+      <h3>Pass style overrides to component as overrides prop</h3>
+      <Select />
     </div>
   );
 }
