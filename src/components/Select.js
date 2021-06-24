@@ -5,7 +5,7 @@ import { Client as Styletron } from "styletron-engine-atomic";
 
 const engine = new Styletron();
 
-export default () => {
+const SelectComponent = () => {
   const [value, setValue] = React.useState([]);
 
   return (
@@ -40,3 +40,5 @@ export default () => {
     </StyletronProvider>
   );
 }
+
+export default SelectComponent;
